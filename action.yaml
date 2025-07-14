@@ -1,4 +1,4 @@
-name: "Portfolio Generator"
+name: "Online Portfolio Generator"
 description: "Generates a portfolio RSS feed from feed.yaml"
 
 runs:
