@@ -1,10 +1,10 @@
 name: "Portfolio Generator"
 description: "Generates a portfolio RSS feed from feed.yaml"
+
 runs:
   using: docker
   image: Dockerfile
-  env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 inputs:
   name:
     description: "Git committer name"
@@ -12,6 +12,7 @@ inputs:
   email:
     description: "Git committer email"
     required: true
+
 branding:
   icon: "rss"
   color: "blue"
